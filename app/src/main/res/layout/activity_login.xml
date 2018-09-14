@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.health.Login">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusableInTouchMode="true"
+        android:focusable="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="50dp"
+            android:orientation="vertical"
+            android:focusableInTouchMode="true"
+            android:focusable="true">
+            <TextView
+                android:id="@+id/errormessage"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#CF6161"
+                android:text="Invalid username"
+                android:textSize="20dp"
+                android:fontFamily="sans-serif-condensed"
+                android:paddingLeft="30dp"
+                android:textColor="#FFFFFF"
+                android:paddingTop="7dp"
+                android:visibility="invisible"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:src="@drawable/emer"
+                android:layout_marginTop="60dp"/>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="60dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_account_circle_black_24dp"
+                    android:paddingTop="10dp"
+                    android:layout_gravity="left"
+
+                    android:layout_marginLeft="30dp"/>
+                <EditText
+                    android:id="@+id/username"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+
+
+                    android:textSize="16dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="60dp"
+                    android:inputType="textEmailAddress"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_lock_outline_black_24dp"
+                    android:paddingTop="10dp"
+                    android:layout_gravity="left"
+
+                    android:layout_marginLeft="30dp"/>
+                <EditText
+                    android:textSize="16dp"
+                    android:id="@+id/password"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:inputType="textPassword"
+                    android:layout_marginRight="60dp"
+
+                    />
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/login"
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:text="L O G I N"
+                android:textStyle="normal"
+                android:fontFamily="monospace"
+                android:background="#FFFFFF"/>
+            <TextView
+                android:id="@+id/signup"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="Are you a Newbie ? Click here"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:paddingTop="10dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Health</string>
+    <string name="emer"> Emergency Contact Details</string>
+    <string name="next">NEXT >></string>
+    <string name="Address">Address Details</string>
+    <string name="qr">\t\t Your Generated QR  </string>
+    <string name="details">Kindly paste this QR \n in front of your vehicle</string>
+    <string name="done">Done</string>
+    <string name="doc">Generate QR</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="invit">You get 25 credit points when your friend uses your referral code</string>
+    <string name="text">Invite your friends \n to save life in \n Risky situations</string>
+    <string name="addd"> Emergency \n Contact \n Details</string>
+    <array name="age">
+
+        <item>Age</item>
+        <item>15-20</item>
+        <item>20-25</item>
+        <item>25-30</item>
+        <item>30+</item>
+    </array>
+    <array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Others</item>
+    </array>
+
+</resources>

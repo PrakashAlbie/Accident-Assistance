@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "F:\\androidstudioprj\\Health-20180721T080459Z-001\\Health\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ta-rIN\\values-ta-rIN.xml",
+            "map": [
+                {
+                    "source": "F:\\androidstudioprj\\Health-20180721T080459Z-001\\Health\\app\\src\\main\\res\\values-ta-rIN\\strings.xml",
+                    "from": {
+                        "startLines": "2,6,14,3,4",
+                        "startColumns": "4,0,4,4,4",
+                        "startOffsets": "57,546,894,102,304",
+                        "endLines": "2,12,20,3,4",
+                        "endColumns": "43,70,70,200,242",
+                        "endOffsets": "96,886,1235,298,542"
+                    },
+                    "to": {
+                        "startLines": "2,3,10,17,18",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,99,438,778,979",
+                        "endLines": "2,9,16,17,18",
+                        "endColumns": "43,70,70,200,242",
+                        "endOffsets": "94,433,773,974,1217"
+                    }
+                }
+            ]
+        }
+    ]
+}
